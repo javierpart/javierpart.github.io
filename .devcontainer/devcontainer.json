@@ -1,0 +1,30 @@
+{
+    "dockerFile": "../Dockerfile",
+    "name": "Landing",
+    "extensions":[
+        "dbaeumer.vscode-eslint",
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "zhuangtongfa.material-theme",
+        "pkief.material-icon-theme",
+        "ms-azuretools.vscode-docker",
+        "yzhang.markdown-all-in-one",
+        "ms-vsliveshare.vsliveshare",
+        "Vtrois.gitmoji-vscode",
+        "Perkovec.emoji",
+        "bierner.markdown-emoji",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "settings": {
+		"python.pythonPath": "/usr/bin/python3",
+		"python.languageServer": "Pylance",
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.enabled": true,
+		"python.formatting.blackPath": "/usr/local/bin/black",
+		"python.linting.flake8Path": "/usr/local/bin/flake8",
+		"python.linting.mypyPath": "/usr/local/bin/mypy"
+	}
+}   
