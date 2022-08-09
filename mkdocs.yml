@@ -1,0 +1,26 @@
+# Project information
+site_name: Javier Partida Valle
+site_url: https://javierpart.github.io/
+site_author: Javier Partida Valle
+site_description: >-
+  Know more about me on my personal web page.
+
+# Repository
+repo_name: javierpart/javierpart.github.io
+repo_url: https://github.com/javierpart/javierpart.github.io
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2022 Javier Partida Valle
+
+# Configuration
+theme:
+  name: material
+  icon:
+    logo: material/face-man-outline
+  # favicon: images/favicon.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+
